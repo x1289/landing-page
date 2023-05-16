@@ -33,8 +33,8 @@ const router = createRouter({
       component: () => import('../views/PricingView.vue')
     },
     {
-      path: '/api-doc',
-      name: 'api-doc',
+      path: '/api-docs',
+      name: 'api-docs',
       component: () => import('../views/ApiDocView.vue')
     },
     {

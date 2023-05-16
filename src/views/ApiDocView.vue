@@ -1,6 +1,5 @@
 <template>
   <div>
-
     <div id="api-doc-view">
       <h2>API Doc</h2>
       <section>

@@ -15,7 +15,7 @@
               <RouterLink to="/pricing" class="nav-link active">Pricing</RouterLink>
             </li>
             <li class="nav-item">
-              <RouterLink to="/api-doc" class="nav-link active">API Doc</RouterLink>
+              <RouterLink to="/api-docs" class="nav-link active">API Docs</RouterLink>
             </li>
           </ul>
           <div class="d-grid gap-2 d-md-flex">          
@@ -30,4 +30,7 @@
 
 
 <style scoped>
+#navbar {
+  background-color: red;
+}
 </style>

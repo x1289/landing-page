@@ -13,8 +13,7 @@ import LoginForm from "../components/login/LoginForm.vue"
 <style scoped>
 #login-view {
   margin: auto;
-  max-width: 80%;
-  margin: auto;
+  max-width: 600px;
 }
 
 @media only screen and (max-width: 500px) {

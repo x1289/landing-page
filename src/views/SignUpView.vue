@@ -1,21 +1,21 @@
 <template>
   <div>
-    <div id="reset-view">
-      <h3>Sign Up</h3>
+    <div id="sing-up-view" class="pt-5">
+      <h2 class="mb-4">Sign Up</h2>
       <div class="input-group mb-3">
-        <span class="input-group-text" id="inputGroup-sizing-default">Email</span>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        <span class="input-group-text">Email</span>
+        <input type="text" class="form-control" aria-label="Email input" aria-describedby="inputGroup-sizing-default">
       </div>
       <div class="input-group mb-3">
-        <span class="input-group-text" id="inputGroup-sizing-default">Password</span>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        <span class="input-group-text">Password</span>
+        <input type="text" class="form-control" aria-label="Password input" aria-describedby="inputGroup-sizing-default">
       </div>
       <div class="input-group mb-3">
-        <span class="input-group-text" id="inputGroup-sizing-default">Confirm password</span>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        <span class="input-group-text">Confirm password</span>
+        <input type="text" class="form-control" aria-label="Confirm password input" aria-describedby="inputGroup-sizing-default">
       </div>
-      <RouterLink to="/" class="btn btn-primary me-md-2">Register</RouterLink>
-      <p>Already registered? <a href="#" class="link-primary">Log in.</a></p>
+      <p class="mt-3">Already registered? <a href="#" class="link-primary">Log in.</a></p>
+      <RouterLink to="/" class="btn btn-primary w-100 my-3 me-2">Register</RouterLink>
     </div>
   </div>
 </template>
@@ -24,8 +24,7 @@
 </script>
 
 <style scoped>
-#reset-view {
-  background-color: green;
+#sing-up-view {
   margin: auto;
   max-width: 600px;
 }
